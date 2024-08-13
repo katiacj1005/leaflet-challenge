@@ -1,0 +1,29 @@
+/* Reset default margin and padding */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Set height of map container and make sure HTML and body take full height */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Styling for legend */
+.legend {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+/* Optionally, style the color squares within the legend */
+.legend i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
